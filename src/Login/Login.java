@@ -5,15 +5,17 @@
  */
 package Login;
 
+import Principal.Principal;
+
 /**
  *
  * @author WASP
  */
 public class Login extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Login
-     */
+    private String user, pass;
+    private boolean acceso = false;
+    
     public Login() {
         initComponents();
     }
@@ -40,6 +42,7 @@ public class Login extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
+        setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(51, 51, 51));
 
@@ -185,13 +188,17 @@ public class Login extends javax.swing.JFrame {
 
     private void btn_login_aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_login_aceptarActionPerformed
         // btnAceptar validar en la base de datos
-        
+        Principal principal = new Principal();
+        principal.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btn_login_aceptarActionPerformed
 
     private void btn_login_nuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_login_nuevoActionPerformed
         // Agregar un nuevo usuario a la base de datos
         Agregar agregar = new Agregar();
         agregar.setVisible(true);
+        
+        this.setVisible(false);
     }//GEN-LAST:event_btn_login_nuevoActionPerformed
 
     /**

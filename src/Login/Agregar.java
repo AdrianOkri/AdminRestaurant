@@ -40,6 +40,7 @@ public class Agregar extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(51, 51, 51));
 
@@ -161,6 +162,9 @@ public class Agregar extends javax.swing.JFrame {
     private void btn_agregar_cerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_agregar_cerrarActionPerformed
         // btn_cerrar el form de crear usuario
         this.dispose();
+        
+        Login login = new Login();
+        login.setVisible(true);
     }//GEN-LAST:event_btn_agregar_cerrarActionPerformed
 
     /**

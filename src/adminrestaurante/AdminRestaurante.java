@@ -5,6 +5,8 @@
  */
 package adminrestaurante;
 
+import Login.Login;
+import Principal.Principal;
 /**
  *
  * @author WASP
@@ -14,8 +16,9 @@ public class AdminRestaurante {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) {   
+        Login login = new Login();
+        login.setVisible(true);
     }
     
 }
