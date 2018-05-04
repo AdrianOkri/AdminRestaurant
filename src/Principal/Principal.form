@@ -294,6 +294,9 @@
               <Image iconType="3" name="/img/menu.png"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_principal_menuActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_principal_cerrar">
           <Properties>

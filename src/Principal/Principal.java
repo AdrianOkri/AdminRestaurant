@@ -90,6 +90,11 @@ public class Principal extends javax.swing.JFrame {
 
         btn_principal_menu.setBackground(new java.awt.Color(51, 51, 51));
         btn_principal_menu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/menu.png"))); // NOI18N
+        btn_principal_menu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_principal_menuActionPerformed(evt);
+            }
+        });
 
         btn_principal_cerrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cerrar.png"))); // NOI18N
         btn_principal_cerrar.addActionListener(new java.awt.event.ActionListener() {
@@ -198,6 +203,13 @@ public class Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_btn_principal_cerrarActionPerformed
+
+    private void btn_principal_menuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_principal_menuActionPerformed
+        // BTN para abrir el JFRAME MUNU
+        this.setVisible(false);
+        Menu menu = new Menu();
+        menu.setVisible(true);
+    }//GEN-LAST:event_btn_principal_menuActionPerformed
 
     /**
      * @param args the command line arguments
