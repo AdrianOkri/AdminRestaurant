@@ -6,7 +6,6 @@
 package adminrestaurante;
 
 import Login.Login;
-import Principal.Principal;
 /**
  *
  * @author WASP

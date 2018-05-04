@@ -31,21 +31,22 @@ public class Menu extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jToggleButton1 = new javax.swing.JToggleButton();
-        jToggleButton2 = new javax.swing.JToggleButton();
-        jToggleButton3 = new javax.swing.JToggleButton();
-        jToggleButton4 = new javax.swing.JToggleButton();
-        jToggleButton5 = new javax.swing.JToggleButton();
-        jToggleButton6 = new javax.swing.JToggleButton();
-        jToggleButton7 = new javax.swing.JToggleButton();
-        jToggleButton8 = new javax.swing.JToggleButton();
-        jToggleButton9 = new javax.swing.JToggleButton();
-        jToggleButton10 = new javax.swing.JToggleButton();
-        jToggleButton11 = new javax.swing.JToggleButton();
-        jToggleButton12 = new javax.swing.JToggleButton();
-        jToggleButton13 = new javax.swing.JToggleButton();
-        jToggleButton14 = new javax.swing.JToggleButton();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        tbtn_menu_te = new javax.swing.JToggleButton();
+        tbtn_menu_cafe = new javax.swing.JToggleButton();
+        tbtn_menu_cervesa = new javax.swing.JToggleButton();
+        tbtn_menu_soda = new javax.swing.JToggleButton();
+        tbtn_menu_onigiri = new javax.swing.JToggleButton();
+        tbtn_menu_burger = new javax.swing.JToggleButton();
+        tbtn_menu_arroz = new javax.swing.JToggleButton();
+        tbtn_menu_carne = new javax.swing.JToggleButton();
+        tbtn_menu_pastel = new javax.swing.JToggleButton();
+        tbtn_menu_galleta = new javax.swing.JToggleButton();
+        tbtn_menu_helado = new javax.swing.JToggleButton();
+        tbtn_menu_ensalada = new javax.swing.JToggleButton();
+        btn_menu_cerrar = new javax.swing.JToggleButton();
+        btn_menu_aceptar = new javax.swing.JToggleButton();
+        cmb_menu_num = new javax.swing.JComboBox<>();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -65,71 +66,75 @@ public class Menu extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Comidas");
 
-        jToggleButton1.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bebida-caliente.png"))); // NOI18N
-        jToggleButton1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_te.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_te.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bebida-caliente.png"))); // NOI18N
+        tbtn_menu_te.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton2.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cafe.png"))); // NOI18N
-        jToggleButton2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_cafe.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_cafe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cafe.png"))); // NOI18N
+        tbtn_menu_cafe.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton3.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cerveza.png"))); // NOI18N
-        jToggleButton3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_cervesa.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_cervesa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cerveza.png"))); // NOI18N
+        tbtn_menu_cervesa.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton4.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lata.png"))); // NOI18N
-        jToggleButton4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_soda.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_soda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lata.png"))); // NOI18N
+        tbtn_menu_soda.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton5.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/onigiri.png"))); // NOI18N
-        jToggleButton5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_onigiri.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_onigiri.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/onigiri.png"))); // NOI18N
+        tbtn_menu_onigiri.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton6.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hamburguesa.png"))); // NOI18N
-        jToggleButton6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_burger.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_burger.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hamburguesa.png"))); // NOI18N
+        tbtn_menu_burger.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton7.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/arroz.png"))); // NOI18N
-        jToggleButton7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_arroz.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_arroz.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/arroz.png"))); // NOI18N
+        tbtn_menu_arroz.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton8.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/filete.png"))); // NOI18N
-        jToggleButton8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_carne.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_carne.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/filete.png"))); // NOI18N
+        tbtn_menu_carne.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton9.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pastel.png"))); // NOI18N
-        jToggleButton9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_pastel.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_pastel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pastel.png"))); // NOI18N
+        tbtn_menu_pastel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton10.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/galletas.png"))); // NOI18N
-        jToggleButton10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_galleta.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_galleta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/galletas.png"))); // NOI18N
+        tbtn_menu_galleta.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton11.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/helado.png"))); // NOI18N
-        jToggleButton11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_helado.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_helado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/helado.png"))); // NOI18N
+        tbtn_menu_helado.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton12.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/ensalada.png"))); // NOI18N
-        jToggleButton12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        tbtn_menu_ensalada.setBackground(new java.awt.Color(51, 51, 51));
+        tbtn_menu_ensalada.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/ensalada.png"))); // NOI18N
+        tbtn_menu_ensalada.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jToggleButton13.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cerrar.png"))); // NOI18N
-        jToggleButton13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jToggleButton13.addActionListener(new java.awt.event.ActionListener() {
+        btn_menu_cerrar.setBackground(new java.awt.Color(51, 51, 51));
+        btn_menu_cerrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cerrar.png"))); // NOI18N
+        btn_menu_cerrar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        btn_menu_cerrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton13ActionPerformed(evt);
+                btn_menu_cerrarActionPerformed(evt);
             }
         });
 
-        jToggleButton14.setBackground(new java.awt.Color(51, 51, 51));
-        jToggleButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/comprobado.png"))); // NOI18N
-        jToggleButton14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        btn_menu_aceptar.setBackground(new java.awt.Color(51, 51, 51));
+        btn_menu_aceptar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/comprobado.png"))); // NOI18N
+        btn_menu_aceptar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jComboBox1.setBackground(new java.awt.Color(51, 51, 51));
-        jComboBox1.setFont(new java.awt.Font("Algerian", 0, 36)); // NOI18N
-        jComboBox1.setForeground(new java.awt.Color(255, 255, 255));
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mesa 1", "Mesa 2", "Mesa 3", "Mesa 4", "Mesa 5", "Mesa 6", "Mesa 7", "Mesa 8", "Mesa 9" }));
+        cmb_menu_num.setBackground(new java.awt.Color(51, 51, 51));
+        cmb_menu_num.setFont(new java.awt.Font("Algerian", 0, 36)); // NOI18N
+        cmb_menu_num.setForeground(new java.awt.Color(255, 255, 255));
+        cmb_menu_num.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9" }));
+
+        jLabel1.setFont(new java.awt.Font("Algerian", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Mesa:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -137,91 +142,92 @@ public class Menu extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(48, 48, 48)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jToggleButton13)
-                        .addGap(36, 36, 36)
-                        .addComponent(jToggleButton14))
-                    .addComponent(jToggleButton4, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton3, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton2, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jToggleButton1, javax.swing.GroupLayout.Alignment.LEADING))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                    .addComponent(tbtn_menu_soda)
+                    .addComponent(tbtn_menu_cervesa)
+                    .addComponent(tbtn_menu_cafe)
+                    .addComponent(tbtn_menu_te)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(btn_menu_cerrar)
+                        .addGap(36, 36, 36)
+                        .addComponent(btn_menu_aceptar)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 123, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(31, 31, 31)
+                        .addComponent(cmb_menu_num, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jToggleButton5)
-                                .addGap(108, 108, 108)
-                                .addComponent(jToggleButton10))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jToggleButton6)
-                                .addGap(108, 108, 108)
-                                .addComponent(jToggleButton11))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jToggleButton7)
-                                .addGap(108, 108, 108)
-                                .addComponent(jToggleButton9))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jToggleButton8)
-                                .addGap(108, 108, 108)
-                                .addComponent(jToggleButton12)))
-                        .addGap(38, 38, 38))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addGap(28, 28, 28)
-                        .addComponent(jLabel2)))
-                .addGap(77, 77, 77))
+                            .addComponent(tbtn_menu_onigiri)
+                            .addComponent(tbtn_menu_burger)
+                            .addComponent(tbtn_menu_arroz)
+                            .addComponent(tbtn_menu_carne))
+                        .addGap(149, 149, 149)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tbtn_menu_galleta, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(tbtn_menu_helado, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(tbtn_menu_pastel, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(tbtn_menu_ensalada, javax.swing.GroupLayout.Alignment.TRAILING))))
+                .addGap(83, 83, 83))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addGap(59, 59, 59)
+                .addComponent(jLabel2)
+                .addGap(53, 53, 53))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(22, 22, 22)
                     .addComponent(jLabel3)
-                    .addContainerGap(442, Short.MAX_VALUE)))
+                    .addContainerGap(383, Short.MAX_VALUE)))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGap(21, 21, 21)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jToggleButton14))
+                        .addGap(66, 66, 66)
+                        .addComponent(tbtn_menu_te)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(tbtn_menu_cafe)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(tbtn_menu_cervesa)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(tbtn_menu_soda)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btn_menu_aceptar)
+                            .addComponent(btn_menu_cerrar))
+                        .addGap(21, 21, 21))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel4))
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel2))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jToggleButton1)
+                                .addComponent(tbtn_menu_onigiri)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jToggleButton2)
+                                .addComponent(tbtn_menu_burger)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jToggleButton3)
+                                .addComponent(tbtn_menu_arroz)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jToggleButton4))
+                                .addComponent(tbtn_menu_carne))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jToggleButton5)
-                                    .addComponent(jToggleButton10))
+                                .addComponent(tbtn_menu_galleta)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jToggleButton6)
-                                    .addComponent(jToggleButton11))
+                                .addComponent(tbtn_menu_helado)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jToggleButton7)
-                                    .addComponent(jToggleButton9))
+                                .addComponent(tbtn_menu_pastel)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(tbtn_menu_ensalada)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jToggleButton8)
-                                    .addComponent(jToggleButton12))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jToggleButton13, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap())
+                                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(cmb_menu_num, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(9, 9, 9))))))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(22, 22, 22)
@@ -233,9 +239,7 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -246,12 +250,12 @@ public class Menu extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jToggleButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton13ActionPerformed
+    private void btn_menu_cerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_menu_cerrarActionPerformed
         // TODO add your handling code here:
         Principal principal = new Principal();
         principal.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jToggleButton13ActionPerformed
+    }//GEN-LAST:event_btn_menu_cerrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -289,24 +293,25 @@ public class Menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JToggleButton btn_menu_aceptar;
+    private javax.swing.JToggleButton btn_menu_cerrar;
+    private javax.swing.JComboBox<String> cmb_menu_num;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JToggleButton jToggleButton1;
-    private javax.swing.JToggleButton jToggleButton10;
-    private javax.swing.JToggleButton jToggleButton11;
-    private javax.swing.JToggleButton jToggleButton12;
-    private javax.swing.JToggleButton jToggleButton13;
-    private javax.swing.JToggleButton jToggleButton14;
-    private javax.swing.JToggleButton jToggleButton2;
-    private javax.swing.JToggleButton jToggleButton3;
-    private javax.swing.JToggleButton jToggleButton4;
-    private javax.swing.JToggleButton jToggleButton5;
-    private javax.swing.JToggleButton jToggleButton6;
-    private javax.swing.JToggleButton jToggleButton7;
-    private javax.swing.JToggleButton jToggleButton8;
-    private javax.swing.JToggleButton jToggleButton9;
+    private javax.swing.JToggleButton tbtn_menu_arroz;
+    private javax.swing.JToggleButton tbtn_menu_burger;
+    private javax.swing.JToggleButton tbtn_menu_cafe;
+    private javax.swing.JToggleButton tbtn_menu_carne;
+    private javax.swing.JToggleButton tbtn_menu_cervesa;
+    private javax.swing.JToggleButton tbtn_menu_ensalada;
+    private javax.swing.JToggleButton tbtn_menu_galleta;
+    private javax.swing.JToggleButton tbtn_menu_helado;
+    private javax.swing.JToggleButton tbtn_menu_onigiri;
+    private javax.swing.JToggleButton tbtn_menu_pastel;
+    private javax.swing.JToggleButton tbtn_menu_soda;
+    private javax.swing.JToggleButton tbtn_menu_te;
     // End of variables declaration//GEN-END:variables
 }
